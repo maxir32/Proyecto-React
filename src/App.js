@@ -25,7 +25,7 @@ function App() {
           <Route path='/item/:itemId' element={<ItemDetailContainer/>}/>
           <Route path="/cart" element={<Cart/>} />
           <Route path="/checkout" element={<Checkout/>} />
-          <Route path='*' element={<h2>Eror 404, Volvamos...</h2>}/>
+          <Route path='*' element={<h2>Error 404, Volvamos...</h2>}/>
       </Routes>      
       <Footer/>
       </CarProvider>

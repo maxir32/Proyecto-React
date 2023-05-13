@@ -5,7 +5,7 @@ import Middle from "./Middle";
 export default function Header() {
   return (
     <>
-      <header>        
+      <header>           
         <Middle />
       </header>
     </>

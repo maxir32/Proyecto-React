@@ -1,4 +1,3 @@
-/*import cart from "./assets/carrito1.png";*/
 import React from 'react';
 import './CartWidget.css'
 import { Link } from "react-router-dom";
@@ -17,13 +16,5 @@ const CartWidget = () => {
     );
 }
 
-/*const CartWidget = () => {
-    return (
-        <div>
-            <img src={cart} alt="cart-widget" />
-            0
-        </div>
-    )
-}*/
 
 export default CartWidget
